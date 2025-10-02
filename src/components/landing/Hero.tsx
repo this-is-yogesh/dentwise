@@ -22,32 +22,34 @@ function Hero() {
             <div className="space-y-10">
               <div className="space-y-6">
                 {/* BADGE */}
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-primary/10 to-primary/5 rounded-full border border-primary/20 backdrop-blur-sm">
+                {/* <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-primary/10 to-primary/5 rounded-full border border-primary/20 backdrop-blur-sm">
                   <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
                   <span className="text-sm font-medium text-primary">
                     AI-Powered Dental Assistant
                   </span>
-                </div>
+                </div> */}
 
                 {/* MAIN HEADING */}
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-                  <span className="bg-gradient-to-br from-foreground via-foreground to-foreground/70 bg-clip-text text-transparent">
-                    Your dental
-                  </span>
-                  <br />
-                  <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                    questions
+                  <span className="bg-gradient-to-br from-primary to-primary/70  bg-clip-text text-transparent">
+                    Dr. Muskaan's
                   </span>
                   <br />
                   <span className="bg-gradient-to-br from-foreground via-foreground to-foreground/70 bg-clip-text text-transparent">
-                    answered instantly
+                    Trusted Care
                   </span>
+                  <br />
+                  <span className="bg-gradient-to-r from-foreground via-foreground to-foreground/70 bg-clip-text text-transparent">
+                    Healthy Smiles
+                  </span>
+                  <br />
                 </h1>
 
                 {/* SUBTITLE */}
                 <p className="text-lg text-muted-foreground leading-relaxed max-w-xl font-medium">
-                  Chat with our AI dental assistant for instant advice, book smart appointments, and
-                  get personalized care recommendations. Available 24/7.
+                  Dr. Muskaan Pahwa is here to help you with all your dental
+                  needs — from quick advice to booking appointments and getting
+                  personalized care.
                 </p>
               </div>
 
@@ -56,7 +58,7 @@ function Hero() {
                 <SignUpButton mode="modal">
                   <Button size={"lg"}>
                     <MicIcon className="mr-2 size-5" />
-                    Try voice agent
+                    Try our voice agent
                   </Button>
                 </SignUpButton>
 
@@ -114,15 +116,22 @@ function Hero() {
                   <div className="space-y-1">
                     <div className="flex items-center gap-2">
                       <div className="flex items-center gap-1">
-                        {[1, 2, 3, 4, 5].map((star) => (
-                          <StarIcon key={star} className="h-4 w-4 fill-amber-400 text-amber-400" />
+                        {[1, 2, 3, 4, 5].map(star => (
+                          <StarIcon
+                            key={star}
+                            className="h-4 w-4 fill-amber-400 text-amber-400"
+                          />
                         ))}
                       </div>
-                      <span className="text-sm font-bold text-foreground">4.9/5</span>
+                      <span className="text-sm font-bold text-foreground">
+                        4.9/5
+                      </span>
                     </div>
                     <p className="text-sm text-muted-foreground">
                       Trusted by{" "}
-                      <span className="font-semibold text-foreground">1,200+ patients</span>
+                      <span className="font-semibold text-foreground">
+                        1,200+ patients
+                      </span>
                     </p>
                   </div>
                 </div>

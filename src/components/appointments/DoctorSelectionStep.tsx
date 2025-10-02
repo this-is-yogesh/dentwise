@@ -32,7 +32,7 @@ function DoctorSelectionStep({
       <h2 className="text-2xl font-semibold">Choose Your Dentist</h2>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {dentists.map((dentist) => (
+        {dentists.map(dentist => (
           <Card
             key={dentist.id}
             className={`cursor-pointer transition-all hover:shadow-lg ${
@@ -70,14 +70,15 @@ function DoctorSelectionStep({
             <CardContent className="space-y-3">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPinIcon className="w-4 h-4" />
-                <span>DentWise</span>
+                <span>Dr.Muskaan Pahwa Clinic</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <PhoneIcon className="w-4 h-4" />
                 <span>{dentist.phone}</span>
               </div>
               <p className="text-sm text-muted-foreground">
-                {dentist.bio || "Experienced dental professional providing quality care."}
+                {dentist.bio ||
+                  "Experienced dental professional providing quality care."}
               </p>
               <Badge variant="secondary">Licensed Professional</Badge>
             </CardContent>

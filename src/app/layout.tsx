@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DentWise - AI Powered Dental Assistant",
+  title: "Dr. Muskaan Pahwa - Leading Expert in Dental Care",
   description:
-    "Get instant dental advice through voice calls with our AI assistant. Avaiable 24/7.",
+    "Get instant dental advice through insightful consultations and with our AI assistant. Avaiable 24/7.",
 };
 
 export default function RootLayout({
