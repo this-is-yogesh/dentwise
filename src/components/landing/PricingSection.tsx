@@ -41,7 +41,7 @@ function PricingSection() {
         <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Free Plan */}
           <div className="relative group">
-            <div className="relative bg-gradient-to-br from-card/90 to-card/60 backdrop-blur-xl rounded-3xl p-8 border border-border/50 hover:border-primary/30 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10">
+            <div className="relative bg-gradient-to-br from-card/90 to-card/60 backdrop-blur-xl rounded-3xl p-8 border border-border/50 hover:border-primary/30 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 cursor-pointer">
               <div className="space-y-6">
                 <div className="space-y-3">
                   <h3 className="text-2xl font-bold">Free</h3>
@@ -87,12 +87,12 @@ function PricingSection() {
           <div className="relative group">
             {/* Popular Badge */}
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-20">
-              <div className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+              <div className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg ">
                 Most Popular
               </div>
             </div>
 
-            <div className="relative bg-gradient-to-br from-card/95 to-card/70 backdrop-blur-xl rounded-3xl p-8 border-2 border-primary/30 hover:border-primary/50 transition-all duration-500 shadow-xl hover:shadow-2xl hover:shadow-primary/20 scale-105">
+            <div className="relative bg-gradient-to-br from-card/95 to-card/70 backdrop-blur-xl rounded-3xl p-8 border-2 border-primary/30 hover:border-primary/50 transition-all duration-500 shadow-xl hover:shadow-2xl hover:shadow-primary/20 scale-105 cursor-pointer">
               <div className="space-y-6">
                 <div className="space-y-3">
                   <h3 className="text-2xl font-bold">Basic</h3>
@@ -145,7 +145,7 @@ function PricingSection() {
 
           {/* Enterprise Plan */}
           <div className="relative group">
-            <div className="relative bg-gradient-to-br from-card/90 to-card/60 backdrop-blur-xl rounded-3xl p-8 border border-border/50 hover:border-primary/30 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10">
+            <div className="relative bg-gradient-to-br from-card/90 to-card/60 backdrop-blur-xl rounded-3xl p-8 border border-border/50 hover:border-primary/30 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 cursor-pointer">
               <div className="space-y-6">
                 <div className="space-y-3">
                   <h3 className="text-2xl font-bold">Pro</h3>

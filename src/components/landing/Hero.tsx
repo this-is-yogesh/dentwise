@@ -47,9 +47,9 @@ function Hero() {
 
                 {/* SUBTITLE */}
                 <p className="text-lg text-muted-foreground leading-relaxed max-w-xl font-medium">
-                  Dr. Muskaan Pahwa is here to help you with all your dental
-                  needs — from quick advice to booking appointments and getting
-                  personalized care.
+                  Dr. Muskaan Pahwa is dedicated to providing comprehensive
+                  dental care — from consultations to personalized treatments,
+                  ensuring your healthiest and most confident smile.
                 </p>
               </div>
 
@@ -140,8 +140,7 @@ function Hero() {
 
             {/* RIGHT CONTENT - HERO IMAGE */}
 
-            <div className="relative lg:pl-8">
-              {/* GRADIENT ORBS */}
+            {/* <div className="relative lg:pl-8">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl rotate-45 blur-xl"></div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-primary/15 to-primary/5 rounded-full blur-2xl"></div>
 
@@ -152,7 +151,7 @@ function Hero() {
                 height={600}
                 className="w-full h-auto"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
