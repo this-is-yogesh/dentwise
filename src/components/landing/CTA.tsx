@@ -29,7 +29,7 @@ function CTA() {
               </h2>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Join 1,200+ patients who trust our Dr. Muskaan Pahwa for guidance and personalized care.
+                Join 1,200+ patients who trust our Dr. Arun for guidance and personalized care.
               </p>
             </div>
 

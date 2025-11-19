@@ -24,9 +24,9 @@ export async function POST(request: Request) {
     // send the email
     // do not use this in prod, only for testing purposes
     const { data, error } = await resend.emails.send({
-      from: "Dr.Muskaan Pahwa Clinic <no-reply@resend.dev>",
+      from: "Dentwise Pro Clinic <no-reply@resend.dev>",
       to: [userEmail],
-      subject: "Appointment Confirmation - Dr.Muskaan Pahwa Clinic",
+      subject: "Appointment Confirmation - Dentwise Pro Clinic",
       react: AppointmentConfirmationEmail({
         doctorName,
         appointmentDate,

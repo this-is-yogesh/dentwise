@@ -32,7 +32,7 @@ function Hero() {
                 {/* MAIN HEADING */}
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
                   <span className="bg-gradient-to-br from-primary to-primary/70  bg-clip-text text-transparent">
-                    Dr. Muskaan's
+                    Dentwise Pro's
                   </span>
                   <br />
                   <span className="bg-gradient-to-br from-foreground via-foreground to-foreground/70 bg-clip-text text-transparent">
@@ -47,9 +47,9 @@ function Hero() {
 
                 {/* SUBTITLE */}
                 <p className="text-lg text-muted-foreground leading-relaxed max-w-xl font-medium">
-                  Dr. Muskaan Pahwa is dedicated to providing comprehensive
-                  dental care — from consultations to personalized treatments,
-                  ensuring your healthiest and most confident smile.
+                  Dentwise Pro is dedicated to providing comprehensive dental
+                  care — from consultations to personalized treatments, ensuring
+                  your healthiest and most confident smile.
                 </p>
               </div>
 

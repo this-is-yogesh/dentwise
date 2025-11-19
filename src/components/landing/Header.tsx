@@ -15,9 +15,7 @@ function Header() {
             height={32}
             className="w-11"
           />
-          <span className="font-semibold text-lg">
-            Dr. Muskaan Pahwa Clinic
-          </span>
+          <span className="font-semibold text-lg">Dentwise Pro</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-8">

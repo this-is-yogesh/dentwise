@@ -14,7 +14,7 @@ function Footer() {
                 height={32}
                 className="w-8 h-8"
               />
-              <span className="font-semibold text-lg">Dr. Muskaan </span>
+              <span className="font-semibold text-lg">Dentwise Pro </span>
             </div>
             <p className="text-sm text-muted-foreground">
               Trusted dental advice, easy appointment scheduling, and care
@@ -88,7 +88,7 @@ function Footer() {
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
           <p>
-            &copy; 2025 Dr. Muskaan Pahwa Clinic — Dedicated to Providing Expert
+            &copy; 2025 Dentwise Pro Clinic — Dedicated to Providing Expert
             Dental Care for Every Need..
           </p>
         </div>

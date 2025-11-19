@@ -70,7 +70,7 @@ function DoctorSelectionStep({
             <CardContent className="space-y-3">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPinIcon className="w-4 h-4" />
-                <span>Dr.Muskaan Pahwa Clinic</span>
+                <span>Dentwise Pro</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <PhoneIcon className="w-4 h-4" />

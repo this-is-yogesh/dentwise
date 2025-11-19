@@ -42,7 +42,7 @@ function AppointmentConfirmationEmail({
               alt="DentWise"
               style={logo}
             />
-            <Text style={logoText}>Dr.Muskaan Pahwa Clinic</Text>
+            <Text style={logoText}>Dentwise Pro</Text>
           </Section>
 
           <Heading style={h1}>Appointment Confirmed! 🦷</Heading>
@@ -95,11 +95,11 @@ function AppointmentConfirmationEmail({
           <Text style={footer}>
             Best regards,
             <br />
-            Dr.Muskaan's Clinic Team
+            Dentwise Pro Clinic Team
           </Text>
 
           <Text style={footerText}>
-            If you have any questions, please contact us at support@drmuskaanpahwa.com
+            If you have any questions, please contact us at support@dentwisepro.com
           </Text>
         </Container>
       </Body>

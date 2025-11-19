@@ -142,7 +142,7 @@ function HowItWorks() {
                 Book & Get Care
               </h3>
               <p className="text-muted-foreground text-center leading-relaxed mb-6">
-                Schedule with our expert dentist Dr. Muskaan Pahwa and receive
+                Schedule with our expert dentist Dr. Arun and receive
                 comprehensive follow-up care. Track your progress seamlessly.
               </p>
 

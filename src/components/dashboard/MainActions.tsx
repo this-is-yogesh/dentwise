@@ -75,7 +75,7 @@ export default function MainActions() {
             <div>
               <h3 className="text-2xl font-bold mb-2">Book Appointment</h3>
               <p className="text-muted-foreground">
-                 Schedule with our expert dentist Dr. Muskaan Pahwa and receive
+                 Schedule with our expert dentist Dr. Arun and receive
                 comprehensive follow-up care.
               </p>
             </div>
